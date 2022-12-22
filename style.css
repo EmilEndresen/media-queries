@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 85%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 1.4px;
+}
+
+.grid {
+    max-width: 350px;
+    margin-inline: auto;
+
+}
+
+.card {
+    border-radius: 10px;
+    padding: 2em;
+    margin-block: 10px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin-block: auto;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border: hsl(300, 40%, 59%) 1px solid;
+    border-radius: 999px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+h3 {
+    margin-top: 1.8rem;
+    font-size: .95rem;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+    font-size: .8rem;
+    margin-top: 20px;
+    color: hsla(0, 0%, 100%, .8);
+}
+
+
+span {
+    font-size: 1rem;
+}
+
+.purple {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 5px right 45px;
+}
+
+.purple,
+.dark,
+.gray {
+    color: hsl(0, 0%, 100%);
+}
+
+.purple h2,
+.gray h2,
+.dark h2 {
+    color: hsla(0, 0%, 100%, .5);
+}
+
+.white-short,
+.white-long {
+    background-color: hsl(0, 0%, 100%);
+    color: hsla(216, 19%, 29%, 1);
+    font-weight: 400;
+}
+
+.white-short p,
+.white-long p {
+    color: hsla(216, 19%, 29%, 0.7)
+}
+
+.white-long h2,
+.white-short h2 {
+    color: hsla(216, 19%, 29%, 0.7);
+}
+
+.gray {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.dark {
+    background-color: hsl(219, 29%, 14%);
+}
